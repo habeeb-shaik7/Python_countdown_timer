@@ -21,7 +21,7 @@ A simple **countdown timer built using Python**. The program takes the time in s
 2. The program converts the input into an integer.
 3. `divmod()` converts the total seconds into minutes and seconds.
 4. The timer decreases by 1 second after every second.
-5. When the timer reaches zero, `"Fire in the hole!!"` is displayed.
+5. When the timer reaches zero, `"Time UP!!"` is displayed.
 
 ## 💻 Code
 
@@ -36,7 +36,7 @@ def countdown(t):
         time.sleep(1)
         t -= 1
 
-    print("Fire in the hole!!")
+    print("Time UP!!")
 
 t = input("Enter the time in seconds: ")
 
@@ -71,7 +71,7 @@ Enter the time in seconds: 10
 00:02
 00:01
 
-Fire in the hole!!
+Time UP!!
 ```
 
 ## 📚 Concepts Learned
@@ -89,7 +89,7 @@ This project helps beginners understand:
 
 ## 👨‍💻 Author
 
-**C S Kartheek**
+**S Habeeb Basha**
 
 ---
 
